@@ -1,0 +1,80 @@
+body {
+/*  background-image: url("../images/bg.jpg");*/
+  background: white;
+  padding: 0;
+  margin: 0;
+  font: 13.34px helvetica, arial, clean, sans-serif;
+  font-size: small;
+  color: #3d3d3d;
+}
+
+h1 {
+  margin: 0;
+  line-height: 105px;
+  height: 100px;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+div#wrapper {
+  width: 600px;
+  margin: 0 auto 49px auto;
+  background: white;
+  padding: 0 40px 40px 40px;
+}
+
+h2 {
+  font-size: 14px;
+  color: #97ca35;
+  margin: 0;
+}
+
+h2 span, h2 span a {
+  color: #bbb;
+  font-size: 10px;
+}
+
+p {
+  margin: 10px;
+  padding: 0;
+  line-height: 1.5;
+  text-align: justify;
+  text-justify: newspaper;
+}
+
+a {
+  color: #1b82c4;  
+}
+
+ul.contact-list {
+  list-style-type: none;
+  margin: 5px 10px 10px 10px;
+  padding: 0;
+}
+
+ul.contact-list a {
+  display: block;
+  padding: 5px 10px;
+  margin-left: -10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+ul.contact-list a:hover {
+  background: #eee;
+}
+
+ul.contact-list a span {
+  font-weight: normal;
+  color: #1b82c4;
+  text-decoration: underline;
+  float: right;
+}
+
+#footer {
+  font-size: 80%;
+  text-align: center;
+  border-top: 3px solid #eee;
+  padding: 10px;
+}
